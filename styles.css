@@ -1,0 +1,58 @@
+header {
+    background-image: url(https://www.istockphoto.com/photo/submarine-dives-under-the-ice-gm1140161420-305007991);
+    height: 10em;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    align-items: center;
+  }
+
+  .header {
+  flex: 2;
+  }
+.form-row{
+    padding: 10px  0;
+    display: flex;
+}
+
+.form-row label  {
+    padding-right: 10px;
+}
+
+.form-row input {
+ flex: 1;   
+}
+
+#column-layout {
+    align-items: center;
+}
+
+.column-layout {
+    max-width: 1300px;
+    background-color: #FFF;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-column {
+    flex: 1;
+}
+
+.sidebar-one {
+    flex: 1
+
+}
+
+.sidebar-two {
+    flex: 1
+}
+
+.footer-container {
+    background-color: maroon;
+    
+}
